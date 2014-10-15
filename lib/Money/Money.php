@@ -20,10 +20,10 @@ class Money
     /**
      * @var int
      */
-    private $amount;
+    protected $amount;
 
     /** @var \Money\Currency */
-    private $currency;
+    protected $currency;
 
     /**
      * Create a Money instance
